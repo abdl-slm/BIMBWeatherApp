@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct BIMBWeatherAssignmentApp: App {
+    
+    @StateObject private var mainViewModel = MainViewModel(networkService: WeatherNetworkService())
+    
     var body: some Scene {
+        
         WindowGroup {
-            ContentView()
-        }
+            MainView()
+            .environmentObject(mainViewModel)        }
     }
 }

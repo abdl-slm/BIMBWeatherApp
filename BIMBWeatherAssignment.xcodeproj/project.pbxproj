@@ -7,18 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B4D6DD62D17A93D007791D2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4D6DD52D17A93D007791D2 /* Extensions.swift */; };
 		6B5425A32D16EAB100F0295E /* BIMBWeatherAssignmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5425A22D16EAB100F0295E /* BIMBWeatherAssignmentApp.swift */; };
 		6B5425A52D16EAB100F0295E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5425A42D16EAB100F0295E /* ContentView.swift */; };
 		6B5425A72D16EAB200F0295E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B5425A62D16EAB200F0295E /* Assets.xcassets */; };
 		6B5425AA2D16EAB200F0295E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B5425A92D16EAB200F0295E /* Preview Assets.xcassets */; };
+		6B5425B42D16ED3600F0295E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5425B32D16ED3600F0295E /* MainView.swift */; };
+		6B5425B62D16ED4200F0295E /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5425B52D16ED4200F0295E /* MainViewModel.swift */; };
+		6B5425B82D16EDED00F0295E /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5425B72D16EDED00F0295E /* Weather.swift */; };
+		6B5425BB2D16EE7900F0295E /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 6B5425BA2D16EE7900F0295E /* Alamofire */; };
+		6B5425C22D16F38900F0295E /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5425C12D16F38900F0295E /* NetworkService.swift */; };
+		6B5425C52D16F3C900F0295E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5425C42D16F3C900F0295E /* Constants.swift */; };
+		6B5425C72D16F44700F0295E /* WeatherNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5425C62D16F44700F0295E /* WeatherNetworkService.swift */; };
+		6B5425CA2D17280800F0295E /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 6B5425C92D17280800F0295E /* Kingfisher */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		6B5425BF2D16F19900F0295E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		6B4D6DD52D17A93D007791D2 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		6B54259F2D16EAB100F0295E /* BIMBWeatherAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BIMBWeatherAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B5425A22D16EAB100F0295E /* BIMBWeatherAssignmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BIMBWeatherAssignmentApp.swift; sourceTree = "<group>"; };
 		6B5425A42D16EAB100F0295E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6B5425A62D16EAB200F0295E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B5425A92D16EAB200F0295E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6B5425B32D16ED3600F0295E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		6B5425B52D16ED4200F0295E /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		6B5425B72D16EDED00F0295E /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		6B5425C12D16F38900F0295E /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		6B5425C42D16F3C900F0295E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6B5425C62D16F44700F0295E /* WeatherNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherNetworkService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +55,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B5425CA2D17280800F0295E /* Kingfisher in Frameworks */,
+				6B5425BB2D16EE7900F0295E /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +82,11 @@
 		6B5425A12D16EAB100F0295E /* BIMBWeatherAssignment */ = {
 			isa = PBXGroup;
 			children = (
+				6B5425C32D16F3BF00F0295E /* Util */,
+				6B5425C02D16F33700F0295E /* Service */,
+				6B5425B22D16ECFE00F0295E /* Models */,
+				6B5425B12D16ECF000F0295E /* ViewModels */,
+				6B5425B02D16ECE300F0295E /* Views */,
 				6B5425A22D16EAB100F0295E /* BIMBWeatherAssignmentApp.swift */,
 				6B5425A42D16EAB100F0295E /* ContentView.swift */,
 				6B5425A62D16EAB200F0295E /* Assets.xcassets */,
@@ -67,6 +103,48 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		6B5425B02D16ECE300F0295E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6B5425B32D16ED3600F0295E /* MainView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6B5425B12D16ECF000F0295E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				6B5425B52D16ED4200F0295E /* MainViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		6B5425B22D16ECFE00F0295E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6B5425B72D16EDED00F0295E /* Weather.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6B5425C02D16F33700F0295E /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				6B5425C12D16F38900F0295E /* NetworkService.swift */,
+				6B5425C62D16F44700F0295E /* WeatherNetworkService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		6B5425C32D16F3BF00F0295E /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				6B5425C42D16F3C900F0295E /* Constants.swift */,
+				6B4D6DD52D17A93D007791D2 /* Extensions.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,12 +155,17 @@
 				6B54259B2D16EAB100F0295E /* Sources */,
 				6B54259C2D16EAB100F0295E /* Frameworks */,
 				6B54259D2D16EAB100F0295E /* Resources */,
+				6B5425BF2D16F19900F0295E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = BIMBWeatherAssignment;
+			packageProductDependencies = (
+				6B5425BA2D16EE7900F0295E /* Alamofire */,
+				6B5425C92D17280800F0295E /* Kingfisher */,
+			);
 			productName = BIMBWeatherAssignment;
 			productReference = 6B54259F2D16EAB100F0295E /* BIMBWeatherAssignment.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +194,10 @@
 				Base,
 			);
 			mainGroup = 6B5425962D16EAB100F0295E;
+			packageReferences = (
+				6B5425B92D16EE7900F0295E /* XCRemoteSwiftPackageReference "Alamofire" */,
+				6B5425C82D17280800F0295E /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 6B5425A02D16EAB100F0295E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,7 +225,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B5425A52D16EAB100F0295E /* ContentView.swift in Sources */,
+				6B4D6DD62D17A93D007791D2 /* Extensions.swift in Sources */,
+				6B5425C72D16F44700F0295E /* WeatherNetworkService.swift in Sources */,
+				6B5425B42D16ED3600F0295E /* MainView.swift in Sources */,
 				6B5425A32D16EAB100F0295E /* BIMBWeatherAssignmentApp.swift in Sources */,
+				6B5425B62D16ED4200F0295E /* MainViewModel.swift in Sources */,
+				6B5425C52D16F3C900F0295E /* Constants.swift in Sources */,
+				6B5425C22D16F38900F0295E /* NetworkService.swift in Sources */,
+				6B5425B82D16EDED00F0295E /* Weather.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +438,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6B5425B92D16EE7900F0295E /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+		6B5425C82D17280800F0295E /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.1.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6B5425BA2D16EE7900F0295E /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6B5425B92D16EE7900F0295E /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		6B5425C92D17280800F0295E /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6B5425C82D17280800F0295E /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6B5425972D16EAB100F0295E /* Project object */;
 }
